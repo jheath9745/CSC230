@@ -74,7 +74,6 @@ nav > ul > li a:hover, nav > ul > li a:active{
 #tour_itinerary h1 {
    font-size: 1.2em;
 }
-
 #tour_itinerary h2 {
    font-size: 0.9em;
 }
@@ -96,4 +95,10 @@ nav > ul > li a:hover, nav > ul > li a:active{
    color: rgb(81, 95, 175);
    }
 /* Blockquote Styles */
-
+blockquote {
+   background-color: rgb(173, 189, 227);
+   color: rgba(255, 255, 255. 065);
+}
+blockquote p {
+   padding: 2.5px 10px;
+}
