@@ -36,8 +36,9 @@ body footer {
       padding: 10px 0px;
    }
 /* Heading Styles */
-
-
+h1, h2 {
+   font-weight: normal;
+}
 
 /* Navigation Styles */
 
