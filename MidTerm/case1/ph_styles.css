@@ -35,7 +35,25 @@ body {
    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
+header {
+   background-color: black;
+}
+p {
+   margin: 0;
+   padding: 5, 25, 25, 25;
+}
 
+body > p {
+   font-size: 1.1em;
+   text-align: center;
+}
+
+address {
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding: 10, 0, 10, 0;
+}
 /* Navigation Styles */
 
 
