@@ -55,10 +55,21 @@ address {
    padding: 10, 0, 10, 0;
 }
 /* Navigation Styles */
+nav {
+   font-family: 'Trebuchet MS'; Helvetica, sans-serif;
+   padding: 10px;
+   
+}
 
+nav > a:visited, nav > a:link {
+   text-decoration:none;
+   color: white;
+   background-color: hsla(0, 0%, 42%, 0.4);
 
-
-
+nav > a:active, nav > a:hover {
+   color: hsla(0, 0%, 100%, 0.7);
+   background-color: hsl(0, 0%, 42%, 0.7);
+}   
 /* Section Styles */
 
 
