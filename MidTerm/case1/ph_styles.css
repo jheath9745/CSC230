@@ -6,6 +6,9 @@
    font-family: Grunge;
    src: url('cac_1942.woff') format('woff'),
   url('cac_1942.ttf') format('truetype');
+  font-family: Dobkin;
+  src: url('DobkinPlain.woff') format('woff'),
+  url('DobkinPlain.ttf') format('truetype');
 }
 
 
@@ -24,8 +27,13 @@
 
 
 /* Structural Styles */
-
-
+html {
+   background-color: hsl(91, 8%, 56%);
+}
+body {
+   background-color: hsl(58, 31%, 84%);
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
 
 
 /* Navigation Styles */
