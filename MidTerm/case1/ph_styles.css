@@ -78,23 +78,33 @@ h1 {
    padding: 20, 0, 10, 10;
 }
 
-play1 {
+#play1 {
    background-color: hsl(240, 100%, 88%);
    font: Champagne, cursive;
 }
-play2 {
+#play2 {
    background-color: hsl(25, 88%, 73%);
    font: Grunge, 'Times New Roman', Times, serif;
 }
 
-play3 {
+#play3 {
    background-color: hsl(0, 100%, 75%);
    font: Impact, Charcoal, sans-serif;
 }
 
-play4 {
+#play4 {
    background-color: hsl(296, 86%, 86%);
    font: Dobkin, cursive;
 }
 /* Description List Styles */
+dt {
+   font-size:1.3em;
+   font-weight: bold;
+   color: hsl(0, 0%, 0% 0.4);
+}
 
+dd {
+   font-size: 1.3em;
+   margin-left: 0;
+   margin-bottom: 10;
+}
