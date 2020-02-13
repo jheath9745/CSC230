@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, 
    margin: 0;
    padding: 0;
    vertical-align: baseline;
+   -webkit-box-sizing: board-box;
+   -moz-box-sizing: boarder-box;
+   box-sizing: border-box;
 }
 
 nav ul {
