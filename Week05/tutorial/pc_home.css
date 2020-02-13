@@ -42,15 +42,34 @@ nav.horizontalNavigation li{
    float: left;
 }
 
+nav.horizontalNavigation a {
+   display; block;
+   text-align: center;
+}
 
 /* Left Column Styles */
-
+section#leftColumn {
+   clear: left;
+   float: left;
+   width: 33%;
+}
 
 
 
 /* Right Column Styles */
+section#rightColumn {
+   float: left;
+   width: 67%;
+}
 
+section#rightColumn img {
+   display: block;
+   width: 100%;
+}
 
+section#rightColumn > nav.horizontalNavigation li {
+   width: 25%;
+}
 
 
 
