@@ -15,11 +15,12 @@
 
 /* Body Styles */
 body {
+   margin-left: auto;
+   margin-right: auto;
    max-width: 960px;
    min-width: 640px:
    width: 95%
 }
-
 
 /* Body Header Styles */
 body > header > img {
@@ -27,10 +28,19 @@ body > header > img {
    width: 100%;
 }
 
+body > header > nav.horizontalNavigation li {
+   width: 20%;
+}
 
+nav.horizontalNavigation li {
+   width: 20%;
+}
 
 /* Horizontal Navigation Styles */
-
+nav.horizontalNavigation li{
+   display: block;
+   float: left;
+}
 
 
 /* Left Column Styles */
