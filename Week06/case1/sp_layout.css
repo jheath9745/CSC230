@@ -39,11 +39,12 @@ header, ul, nav, li, a {
    display: table;
    content: "";
 }
-
-
-
 /* Page Header Styles */
-
+header img {
+   display: block;
+   width: 70%;
+   float: left;
+}
 
 
 
