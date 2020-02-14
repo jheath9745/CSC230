@@ -50,7 +50,10 @@ body > header > nav {
    padding: 0px, 2px;
    width: 30%;
 }
-
+body > header > nav > a {
+   display: block;
+   width: 100%;
+}
 
 
 
