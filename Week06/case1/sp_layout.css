@@ -14,20 +14,46 @@
 */
 
 /* Window and Body Styles */
+html {
+   height: 100%;
+}
 
+body {
+   min-width: 640px;
+   max-width: 960px;
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 100%;
+}
 
-
+header, ul, nav, li, a {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
 
 /* Row Styles */
-
-
-
-
-
+.row::after {
+   clear: both;
+   display: table;
+   content: "";
+}
 /* Page Header Styles */
-
-
-
+header img {
+   display: block;
+   width: 70%;
+   float: left;
+}
+body > header > nav {
+   float: left;
+   padding: 0px, 2px;
+   width: 30%;
+}
+body > header > nav > a {
+   display: block;
+   width: 100%;
+}
 
 
 
