@@ -6,6 +6,22 @@
 article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
 	display: block;
 }
+dl {
+	margin-left: 2%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+dt {
+	display: block;
+	margin: 0;
+	text-indent: 0;
+	font-weight: bold;
+	border-bottom: 1px solid rgba(168, 168, 168,1.00);
+}
+dd {
+	display: block;
+	margin: 0 0 3% 3%;
+	text-indent: 0;
+}
 /* =============================================
 	Default colors, margins and sizing
    =============================================
