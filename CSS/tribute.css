@@ -1,0 +1,17 @@
+img {
+    max-width:100%;
+    height:auto;
+}
+
+body {
+    background-image: url("Snoopy2.jpg");
+}
+h3 {
+    bacground-color: #5490fe;
+}
+.cropimg {
+
+    position: absolute;
+    clip: rect(0px,50px,100px,50px);
+    
+}
