@@ -5,25 +5,17 @@
    Filename: base.css
 
    This file contains the base styles used by all pages in the website
-
-*/
-
-
 /* =============================================
 	HTML5 structural elements
    =============================================
 */
-
 article, aside, details, dl, figcaption, figure, footer, header, hgroup, main, nav, section {
 	display: block;
 }
-
-
 /* =============================================
 	Default colors, margins and sizing
    =============================================
 */
-
 html {
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -38,13 +30,10 @@ body {
 	font-size: 1em;
 	line-height: 1.4;
 }
-
-
 /* =============================================
 	Hypertext links
    =============================================
 */
-
 a {
 	color: #00e;
 }
@@ -60,13 +49,10 @@ a:focus {
 a:hover, a:active {
 	outline: 0;
 }
-
-
 /* =============================================
 	Default font styles
    =============================================
 */
-
 abbr[title] {
 	border-bottom: 1px dotted;
 }
@@ -124,13 +110,10 @@ sup {
 sub {
 	bottom: -0.25em;
 }
-
-
 /* =============================================
 	Default list styles
    =============================================
 */
-
 ul, ol {
 	margin: 1em 0;
 	padding: 0 0 0 40px;
@@ -144,13 +127,10 @@ nav ul, nav ol {
 	margin: 0;
 	padding: 0;
 }
-
-
 /* =============================================
 	Default styles for images and media
    =============================================
 */
-
 img {
 	border: 0;
 	-ms-interpolation-mode: bicubic;
@@ -162,13 +142,10 @@ figure {
 audio, canvas, video {
 	display: inline-block;
 }
-
-
 /* =============================================
 	Default styles for web forms
    =============================================
 */
-
 form {
 	margin: 0;
 }
@@ -222,14 +199,10 @@ textarea {
 	vertical-align: top;
 	resize: vertical;
 }
-
-
-
 /* =============================================
 	Default styles for web tables
    =============================================
 */
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
